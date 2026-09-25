@@ -1,0 +1,2 @@
+'use client';
+export default function Error({ reset }: { error: Error & { digest?: string }; reset: () => void }) { return <main className="state-page"><div className="eyebrow">BALANS AI · ERROR</div><h1>Maʼlumotni yuklashda xatolik yuz berdi.</h1><p>Qayta urinib ko‘ring. Muammo davom etsa, administratorga murojaat qiling.</p><button className="button" onClick={() => reset()}>Qayta urinish ↗</button></main> }
